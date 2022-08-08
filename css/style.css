@@ -1,43 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Clicker+Script&family=My+Soul&family=Poppins:ital,wght@0,400;1,300&family=Ramaraja&display=swap');
-:root{
-    --bg-black-900:#f2f2fc;
-    --bg-black-100:#fdf9ff;
-    --bg-black-50:#e8dfec;
-    --text-black-900:#302e4d;
-    --text-black-700:#504e70;
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Clicker+Script&family=My+Soul&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
 
 }
-body{
+
+body {
     line-height: 1.5;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
-*{  
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
 }
-::before,::after{
+
+::before,
+::after {
     box-sizing: border-box;
 }
-ul{
+
+ul {
     list-style: none;
 
 }
-.section{
-   background:var(--bg-black-900);
-   min-height: 100vh;
-   display: block;
-   position: fixed;
-   left: 270px;
+
+.section {
+    background: var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+    position: fixed;
+    left: 270px;
     top: 0;
     right: 0;
     opacity: 1;
 
 }
 
-.asside{
+.asside {
     width: 270px;
     background: var(--bg-black-100);
     position: fixed;
@@ -51,9 +59,34 @@ ul{
     align-items: center;
 
 }
-.asside .logo{
+
+.asside .logo {
     position: absolute;
-    top:50px;
+    top: 50px;
     font-size: 30px;
     text-transform: capitalize;
+}
+
+.asside .logo a {
+    color: var(--text-black-900);
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+}
+
+.asside .logo a span {
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+}
+.asside .logo a::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
 }
