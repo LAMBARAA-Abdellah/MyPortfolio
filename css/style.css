@@ -10,11 +10,36 @@ body{
     line-height: 1.5;
     font-size: 16px;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-*{
+*{  
+    margin:0;
+    padding:0;
+    outline: none;
+    text-decoration: none;
     box-sizing: border-box;
+}
+::before,::after{
+    box-sizing: border-box;
+}
+.section{
+   background:var(--bg-black-900);
+   min-height: 100vh;
+   display: block;
+   position: fixed;
+   left: 270px;
+    top: 0;
+    right: 0;
+    opacity: 1;
+
+}
+
+.aside{
+    width: 270px;
+    background: var(--bg-black-100);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    
+
 }
