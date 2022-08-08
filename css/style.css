@@ -83,10 +83,29 @@ ul {
 .asside .logo a::before {
     content: '';
     position: absolute;
-    width: 200px;
+    width: 50px;
     height: 20px;
     border-bottom: 5px solid var(--skin-color);
     border-left: 5px solid var(--skin-color);
     bottom: 0;
     left: 0;
+}
+.asside .logo a::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top:0;
+    right: 0;
+}
+.asside .nav{
+    margin-top: 50px;
+}
+.asside .nav li{
+    margin-bottom: 20px;
+    background:red;
+    display: block;
+     
 }
