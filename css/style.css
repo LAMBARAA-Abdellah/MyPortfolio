@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Clicker+Script&family=My+Soul&family=Poppins:ital,wght@0,400;1,300&family=Ramaraja&display=swap');
 :root{
     --bg-black-900:#f2f2fc;
     --bg-black-100:#fdf9ff;
@@ -45,6 +46,10 @@ ul{
     z-index: 10;
     height: 100%;
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .asside .logo{
     position: absolute;
