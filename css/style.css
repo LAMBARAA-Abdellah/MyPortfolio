@@ -39,9 +39,29 @@ ul {
     display: block;
     position: fixed;
     left: 270px;
+    padding: 0 30px;
     top: 0;
     right: 0;
+    z-index: 0;
     opacity: 1;
+
+}
+.padd-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+   
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
 
 }
 
@@ -175,4 +195,37 @@ ul {
 
 .asside .nav li a i {
     margin-right: 15px;
+}
+/* home*/
+.home{
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+}
+.home .home-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+   
+}
+h3.hello{
+    font-size: 28px;
+    margin: 15px 0;
+    
+}
+h3.hello span{
+    font-fa
+}
+.home .home-img{
+    flex: 0 0 40%;
+    max-width: 40%;
+    background: red;
+    position: relative;
+    text-align: center;
+}
+.home .home-img img{
+    height: 400px;
+    width: 300px;
+    
+
+
 }
