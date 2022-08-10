@@ -46,16 +46,19 @@ ul {
     opacity: 1;
 
 }
-.padd-15{
+
+.padd-15 {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .container {
     max-width: 1100px;
     width: 100%;
     margin: auto;
-   
+
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -63,6 +66,20 @@ ul {
     margin-left: -15px;
     position: relative;
 
+
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background-color: var(--skin-color);
+    transition: all 0.6s ease-in-out;
 }
 
 .asside {
@@ -196,36 +213,85 @@ ul {
 .asside .nav li a i {
     margin-right: 15px;
 }
+
 /* home*/
-.home{
+.home {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 }
-.home .home-info{
+
+.home .home-info {
     flex: 0 0 60%;
     max-width: 60%;
-   
+
 }
-h3.hello{
+
+h3.hello {
     font-size: 28px;
     margin: 15px 0;
-    
+
 }
-h3.hello span{
-    font-fa
+
+.typing {
+    color: var(--skin-color);
 }
-.home .home-img{
+
+.home-info p {
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-black-700);
+}
+
+h3.hello span {
+    font-family: 'Clicker script', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+
+h3.my-profession {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.home .home-img {
     flex: 0 0 40%;
     max-width: 40%;
-    background: red;
     position: relative;
     text-align: center;
-}
-.home .home-img img{
-    height: 400px;
-    width: 300px;
     
+}
 
+.home-img::after {
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    right: 0px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    bottom: -40px;
+
+}
+.home-img::before {
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: -20px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    top: -40px;
+
+}
+
+.home .home-img img {
+    height: 400px;
+    object-fit: contain;
+    background-position: center;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
 
 }
