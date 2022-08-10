@@ -37,12 +37,10 @@ ul {
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
+
     left: 270px;
     padding: 0 30px;
-    top: 0;
-    right: 0;
-    z-index: 0;
+    position: fixed;
     opacity: 1;
 
 }
@@ -260,7 +258,7 @@ h3.my-profession {
     max-width: 40%;
     position: relative;
     text-align: center;
-    
+
 }
 
 .home-img::after {
