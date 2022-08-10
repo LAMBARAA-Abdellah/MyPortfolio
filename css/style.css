@@ -80,6 +80,7 @@ ul {
     font-family: 'Clicker Script', cursive;
     font-size: 40px;
 }
+
 .asside .logo a::before {
     content: '';
     position: absolute;
@@ -90,6 +91,7 @@ ul {
     bottom: 0;
     left: 0;
 }
+
 .asside .logo a::after {
     content: '';
     position: absolute;
@@ -97,15 +99,24 @@ ul {
     height: 20px;
     border-top: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);
-    top:0;
+    top: 0;
     right: 0;
 }
-.asside .nav{
+
+.asside .nav {
     margin-top: 50px;
 }
-.asside .nav li{
+
+.asside .nav li {
     margin-bottom: 20px;
-    background:red;
     display: block;
-     
+
+}
+
+.asside .nav li a {
+    font-size: 16 px;
+    font-weight: 600;
+    display: block;
+    color: var(--text-black-900);
+    padding: 5px 15px;
 }
