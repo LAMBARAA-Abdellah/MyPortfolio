@@ -80,9 +80,19 @@ ul {
     position: absolute;
     width: 50px;
     height: 4px;
-    background: var(--text-black-900);
+    background: var(--skin-color);
     left: 0;
-    top: 1000%;
+    top: 100%;
+}
+.section-title h2::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    background: var(--skin-color);
+    left: 0;
+    top: 100%;
+    margin-top: 8px;
 }
 
 .row {
