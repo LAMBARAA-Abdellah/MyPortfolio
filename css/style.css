@@ -68,9 +68,22 @@ ul {
 .section-title{
     flex: 0 0 100%;
     max-width: 100%;
-    background: red;
 }
-
+.section-title h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    position: relative;
+}
+.section-title h2::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background: var(--text-black-900);
+    left: 0;
+    top: 1000%;
+}
 
 .row {
     display: flex;
