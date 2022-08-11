@@ -60,6 +60,12 @@ ul {
     margin: auto;
 
 }
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+     
+}
+
 
 .row {
     display: flex;
