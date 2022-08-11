@@ -366,4 +366,16 @@ h3.my-profession {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
+
+}
+.about .about-content .personal-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 40px;
+}
+.about .about-content .skills {
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+
 }
