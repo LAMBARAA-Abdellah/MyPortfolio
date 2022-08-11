@@ -37,11 +37,16 @@ ul {
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-
-    left: 270px;
     padding: 0 30px;
-    position: fixed;
+
+    /* position: fixed; */
     opacity: 1;
+}
+.hidden{
+    display: none !important;
+}
+.main-content{
+    padding-left: 270px;
 }
 
 .padd-15 {
