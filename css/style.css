@@ -42,7 +42,6 @@ ul {
     padding: 0 30px;
     position: fixed;
     opacity: 1;
-
 }
 
 .padd-15 {
@@ -272,6 +271,7 @@ h3.my-profession {
     bottom: -40px;
 
 }
+
 .home-img::before {
     content: '';
     position: absolute;
