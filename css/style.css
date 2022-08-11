@@ -68,6 +68,7 @@ ul {
 .section-title{
     flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom: 60px;
 }
 .section-title h2{
     font-size: 40px;
@@ -330,5 +331,9 @@ h3.my-profession {
     width: 400px;
     margin: auto;
     border-radius: 5px;
-
+}
+/*about*/
+.about .about-content {
+   flex: 0 0 100%;
+    max-width: 100%;
 }
