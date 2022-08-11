@@ -65,6 +65,11 @@ ul {
     padding-bottom: 70px;
      
 }
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    background: red;
+}
 
 
 .row {
