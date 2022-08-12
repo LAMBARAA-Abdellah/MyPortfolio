@@ -515,11 +515,12 @@ h3.my-profession {
 
 .about .about-content .timeline .timeline-item:before {
     content: '';
+    width: 1px ;
+    height: 100%;
     position: absolute;
+    left: 7px;
     top: 0;
-    left: -18px;
-    width: 20px;
-    height: 20px;
-    background-color: var(--bg-black-50);
-    border-radius: 50%;
+    background-color: var(--skin-color);
+    
+
 }
