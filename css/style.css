@@ -633,4 +633,9 @@ h3.my-profession {
     line-height: 25px;
     /* text-align: justify; */
 }
+/* portfolio */
+.portfolio .portfolio-heading {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 
