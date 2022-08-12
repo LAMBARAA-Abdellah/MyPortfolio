@@ -509,3 +509,15 @@ h3.my-profession {
     padding-left: 37px;
     padding-bottom: 50px;
 }
+.about .about-content .timeline .timeline-item:last-child {
+   padding-bottom: 0;
+}
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: var(--bg-black-50);
+    border-radius: 10px;
+}
