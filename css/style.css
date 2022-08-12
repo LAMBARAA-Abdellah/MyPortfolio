@@ -641,5 +641,6 @@ h3.my-profession {
 
 .portfolio img {
     width: 50%;
+    height: auto;
     
 }
