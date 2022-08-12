@@ -609,6 +609,7 @@ h3.my-profession {
    font-size: 40px;
    line-height: 60px;
    color: var(--skin-color);
+   transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner:hover .icon{
     background: var(--skin-color);
@@ -617,3 +618,7 @@ h3.my-profession {
     font-size: 25px;
     color: white;
 }
+.service .service-item .service-item-inner{
+    background: var(--skin-color);
+}
+
