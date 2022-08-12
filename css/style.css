@@ -467,7 +467,20 @@ h3.my-profession {
 
 .about .about-content  h3.title{
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-weight: 700;
     color: var(--text-black-900);
+}
+.about .about-content .timeline-box {
+   flex: 0 0 100%;
+    max-width: 100%;
+
+}
+.about .about-content .timeline {
+  background-color: var(--bg-black-100);
+  padding: 30px 15px;
+  border:solid 1px var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
 }
