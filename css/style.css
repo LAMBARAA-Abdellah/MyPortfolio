@@ -125,6 +125,12 @@ ul {
     background-color: var(--skin-color);
     transition: all 0.6s ease-in-out;
 }
+.btn:hover{
+    transform: scale(1.05);
+}
+.shadow-dark{
+    box-shadow:0 0 20px rgba(48,46,77,0.15);
+}
 
 .asside {
     width: 270px;
@@ -483,4 +489,18 @@ h3.my-profession {
     border-radius: 10px;
     width: 100%;
     position: relative;
+}
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+}
+.about .about-content .timeline {
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border:solid 1px var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+
 }
