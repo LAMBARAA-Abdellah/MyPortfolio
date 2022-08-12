@@ -639,3 +639,7 @@ h3.my-profession {
     max-width: 100%;
 }
 
+.portfolio img {
+    width: 50%;
+    
+}
