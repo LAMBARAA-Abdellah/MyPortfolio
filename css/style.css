@@ -568,14 +568,16 @@ h3.my-profession {
     color: var(--text-black-700);
 }
 
-.service {
-    padding-left: 50px;
+.service,.portfolio {
+    padding-left: 30px;
 }
 .service .row {
     margin-right: 0px !important;
 
 }
-
+.service .container{
+    padding-bottom: 40px;
+}
 .service .service-item {
     flex: 0 0 31.33333%;
     max-width: 31.33333%;
@@ -618,7 +620,17 @@ h3.my-profession {
     font-size: 25px;
     color: white;
 }
-.service .service-item .service-item-inner{
-    background: var(--skin-color);
+.service .service-item .service-item-inner h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.service .service-item .service-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+    /* text-align: justify; */
 }
 
