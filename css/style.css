@@ -568,16 +568,20 @@ h3.my-profession {
     color: var(--text-black-700);
 }
 
-.service,.portfolio {
+.service,
+.portfolio {
     padding-left: 30px;
 }
+
 .service .row {
     margin-right: 0px !important;
 
 }
-.service .container{
+
+.service .container {
     padding-bottom: 40px;
 }
+
 .service .service-item {
     flex: 0 0 31.33333%;
     max-width: 31.33333%;
@@ -598,50 +602,79 @@ h3.my-profession {
 .service .service-item .service-item-inner:hover {
     box-shadow: 0px 0px 20px rgba(48, 46, 47, 0.15);
 }
-.service .service-item .service-item-inner .icon{
+
+.service .service-item .service-item-inner .icon {
     height: 60px;
     width: 60px;
     border-radius: 50%;
     display: block;
-    margin:0 auto 30px;
+    margin: 0 auto 30px;
     text-align: center;
     /* background: #302e4d; */
 }
-.service .service-item .service-item-inner .icon .fa{
-   font-size: 40px;
-   line-height: 60px;
-   color: var(--skin-color);
-   transition: all 0.3s ease;
+
+.service .service-item .service-item-inner .icon .fa {
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner:hover .icon{
+
+.service .service-item .service-item-inner:hover .icon {
     background: var(--skin-color);
 }
-.service .service-item .service-item-inner:hover .icon .fa{
+
+.service .service-item .service-item-inner:hover .icon .fa {
     font-size: 25px;
     color: white;
 }
-.service .service-item .service-item-inner h4{
+
+.service .service-item .service-item-inner h4 {
     font-size: 18px;
     margin-bottom: 15px;
     color: var(--text-black-900);
     font-weight: 700;
     text-transform: capitalize;
 }
-.service .service-item .service-item-inner p{
+
+.service .service-item .service-item-inner p {
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
     /* text-align: justify; */
 }
+
 /* portfolio */
+.portfolio .container {
+    padding-bottom: 40px;
+}
+
 .portfolio .portfolio-heading {
     flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom: 40px;
 }
 
-.portfolio img {
-    width: 50%;
-    height: auto;
-    hhhhh
-    
+.portfolio .portfolio-heading h2 {
+    color: var(--text-black-900);
+    font-weight: 500;
+}
+
+.portfolio .portfolio-item {
+
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin-bottom: 30px;
+}
+
+
+.portfolio .portfolio-item-inner {
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio-img .portfolio-item-inner .portfolio-img img{
+    width: 100%;
+    display: block;
 }
