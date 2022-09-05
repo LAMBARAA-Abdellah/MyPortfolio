@@ -674,7 +674,21 @@ h3.my-profession {
     overflow: hidden;
     cursor: pointer;
 }
-.portfolio-img .portfolio-item-inner .portfolio-img img{
+
+.portfolio-img .portfolio-item-inner .portfolio-img img {
     width: 100%;
     display: block;
+}
+
+/* contact */
+.contact-title {
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-sub-title {
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
 }
