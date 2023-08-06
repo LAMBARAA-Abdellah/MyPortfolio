@@ -10,7 +10,7 @@ function downloadCV() {
     const link = document.createElement('a');
     link.href = 'images/cv%20Lambaraa%20Abdellah.pdf'; // Specify the link location
     link.target = '_blank'; // Open in a new tab/window
-    link.download = 'your_cv.pdf'; // File name for download
+    link.download = 'LAMBARAA ABDELLAH.pdf'; // File name for download
 
     // Dispatch a click event to trigger the download
     if (document.createEvent) {
